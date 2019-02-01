@@ -1,0 +1,86 @@
+{
+  "name": "findme",
+  "version": "1.0.0",
+  "description": "A web application that helps athletes find the right team",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 7777",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-styled-components": "^1.7.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "styled-components": "^3.4.9",
+    "react-dom": "^16.7.0",
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "casual": "^1.5.19",
+    "enzyme-to-json": "^3.3.4",
+    "graphql-tools": "^4.0.0",
+    "jest": "^23.6.0",
+    "jest-transform-graphql": "^2.1.0"
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "test": {
+        "presets": [
+          [
+            "next/babel",
+            {
+              "preset-env": {
+                "modules": "commonjs"
+              }
+            }
+          ]
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
