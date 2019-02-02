@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>MainBackground</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MainBackground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1440" height="1024"></rect>
+        <path d="M121.5,1071 C189.983309,1071 197.5,865.280801 197.5,788.025508 C197.5,710.770215 85.25,430.617817 73.5,648.142426 C61.75,865.667036 -74,660.07864 -74,737.333933 C-74,814.589226 53.016691,1071 121.5,1071 Z" id="Oval-4-Copy-2" fill="#000000" fill-rule="nonzero" opacity="0.932756696" transform="translate(61.750000, 819.000000) scale(-1, 1) translate(-61.750000, -819.000000) "></path>
+        <path d="M231.143646,1309 C312.112863,1309 321,1096.75003 321,1017.04219 C321,937.334349 188.28453,648.288224 174.392265,872.718376 C160.5,1097.14853 0,885.033517 0,964.741359 C0,1044.4492 150.17443,1309 231.143646,1309 Z" id="Oval-4-Copy-3" fill="#50E3C2" fill-rule="nonzero" opacity="0.932756696" transform="translate(160.500000, 1049.000000) scale(-1, 1) translate(-160.500000, -1049.000000) "></path>
+        <path d="M502,1309 C570.483309,1309 578,1103.2808 578,1026.02551 C578,948.770215 465.75,668.617817 454,886.142426 C442.25,1103.66704 271,898.744707 271,976 C271,1053.25529 433.516691,1309 502,1309 Z" id="Oval-4-Copy-4" fill="#050505" fill-rule="nonzero" opacity="0.932756696" transform="translate(424.500000, 1057.000000) scale(-1, 1) translate(-424.500000, -1057.000000) "></path>
+        <circle id="Oval" fill="#50E3C2" fill-rule="nonzero" opacity="0.932756696" cx="198" cy="562" r="73"></circle>
+        <ellipse id="Oval-Copy" fill="#161717" fill-rule="nonzero" cx="310.5" cy="697" rx="39.5" ry="38"></ellipse>
+    </g>
+</svg>
